@@ -1,9 +1,5 @@
-class profile_jenkins(
+class profile_jenkins{
 
-){
-
-  class {
-    'jenkins':
-  }
+  class { 'jenkins': }
 
 }
